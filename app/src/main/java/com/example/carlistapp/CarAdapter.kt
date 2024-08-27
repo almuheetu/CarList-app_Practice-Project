@@ -33,7 +33,7 @@ class CarAdapter(
         viewHolder.binding.carModel.text.text = "Model :"
         viewHolder.binding.carModel.value.text = car.model
         viewHolder.binding.carPrice.text.text = "Price :"
-        viewHolder.binding.carPrice.value.text = car.price.toString()
+        viewHolder.binding.carPrice.value.text = car.price
         viewHolder.binding.carYear.text.text = "Year :"
         viewHolder.binding.carYear.value.text = car.year.toString()
 
