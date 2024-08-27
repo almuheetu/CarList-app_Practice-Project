@@ -32,9 +32,8 @@
                 android:id="@+id/car_profile_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/car_profile_image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/car_profile_img" />
+                android:contentDescription="@string/car_profile_images"
+                android:scaleType="centerCrop" />
 
         </androidx.cardview.widget.CardView>
 

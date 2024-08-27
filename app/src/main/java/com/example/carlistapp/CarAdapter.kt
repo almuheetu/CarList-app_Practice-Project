@@ -22,10 +22,10 @@ class CarAdapter(
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
         val car = cars[position]
 
-//        Glide.with(viewHolder.itemView.context)
-//            .load(car.imageUrl)
-//            .circleCrop()
-//            .into(viewHolder.binding.ivCarImg)
+        Glide.with(viewHolder.itemView.context)
+            .load(car.imageUrl)
+            .circleCrop()
+            .into(viewHolder.binding.carProfileImage)
 
         viewHolder.binding.carName.text = car.name
         viewHolder.binding.carModel.text.text = "Model:"
