@@ -13,9 +13,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/gray_lightest"
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
-        android:background="@color/gray_lightest"
         tools:ignore="ExtraText">
 
         <androidx.cardview.widget.CardView

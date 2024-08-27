@@ -8,8 +8,7 @@
     tools:context=".MainActivity">
 
 
-
-   <include layout="@layout/first_fragment_xml" />
+    <include layout="@layout/first_fragment_xml" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
