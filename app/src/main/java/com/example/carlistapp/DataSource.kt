@@ -1,4 +1,5 @@
 package com.example.carlistapp
+
 val carList = arrayListOf(
     Car(
         name = "Tesla Model S",
@@ -88,14 +89,14 @@ val carList = arrayListOf(
         name = "Infiniti Q50",
         model = "Q50",
         price = 41999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1661615343537-a7f6ee01f2c0?q=80&w=320",
         year = 2021
     ),
     Car(
         name = "Cadillac CT5",
         model = "CT5",
         price = 47999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1683693066300-405e279114b2?q=80&w=320",
         year = 2022
     ),
     Car(
@@ -137,77 +138,77 @@ val carList = arrayListOf(
         name = "Subaru WRX",
         model = "WRX",
         price = 33999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1616804087673-cdcd32e5578f?q=80&w=320",
         year = 2023
     ),
     Car(
         name = "Volkswagen Passat",
         model = "Passat",
         price = 27999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1710593136019-afbfe48ec7a8?q=80&w=320",
         year = 2021
     ),
     Car(
         name = "Acura TLX",
         model = "TLX",
         price = 37999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1613288833656-86d453c0298f?q=80&w=320",
         year = 2022
     ),
     Car(
         name = "Hyundai Sonata",
         model = "Sonata",
         price = 27999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1681361270520-4cc3961d3b00?q=80&w=320",
         year = 2023
     ),
     Car(
         name = "Buick Regal",
         model = "Regal",
         price = 31999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1636086170815-0e5503c38a60?q=80&w=320",
         year = 2021
     ),
     Car(
         name = "Chrysler 300",
         model = "300",
         price = 35999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1542075518760-4c108925a0e5?q=80&w=320",
         year = 2022
     ),
     Car(
         name = "Dodge Charger",
         model = "Charger",
         price = 42999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1629649075111-a5a850107bad?q=80&w=320",
         year = 2023
     ),
     Car(
         name = "Mitsubishi Lancer",
         model = "Lancer",
         price = 24999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1694103216506-7a4b30e4c185?q=80&w=320",
         year = 2021
     ),
     Car(
         name = "Tesla Model 3",
         model = "Model 3",
         price = 52999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1585011664466-b7bbe92f34ef?q=80&w=320",
         year = 2022
     ),
     Car(
         name = "BMW 5 Series",
         model = "5 Series",
         price = 59999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1599746089331-7818f74830fd?q=80&w=320",
         year = 2023
     ),
     Car(
         name = "Audi A6",
         model = "A6",
         price = 57999.99,
-        imageUrl = "https://images.unsplash.com/photo-1589413198363-54cd749e95fe?q=80&w=320",
+        imageUrl = "https://images.unsplash.com/photo-1556391362-d3d11d98e510?q=80&w=320",
         year = 2021
     )
 )
