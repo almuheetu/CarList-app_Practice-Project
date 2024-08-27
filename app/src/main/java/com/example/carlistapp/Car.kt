@@ -6,5 +6,4 @@ data class Car(
     val price: Double,
     val imageUrl: String,
     val year: Int,
-
     )

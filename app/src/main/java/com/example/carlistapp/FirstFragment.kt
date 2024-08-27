@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.carlistapp.databinding.FirstFragmentXmlBinding
 
-class FirstFragment : Fragment(){
-   private lateinit var binding: FirstFragmentXmlBinding
-   private lateinit var adapter: CarAdapter
+class FirstFragment : Fragment() {
+    private lateinit var binding: FirstFragmentXmlBinding
+    private lateinit var adapter: CarAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
