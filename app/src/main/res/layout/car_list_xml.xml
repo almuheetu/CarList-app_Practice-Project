@@ -1,56 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/car_cardView_layout"
+    android:id="@+id/car_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="16dp"
-    android:layout_marginTop="16dp"
-    android:layout_marginEnd="16dp"
+    android:layout_margin="8dp"
+    android:elevation="12dp"
+    android:radius="12dp"
+
     app:cardCornerRadius="12dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/car_cardView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@color/gray_lightest"
+        tools:ignore="ExtraText">
 
-        <ImageView
-            android:id="@+id/iv_car_img"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/image_card"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="8dp"
-            android:contentDescription="@string/car_image"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-         />
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/car_profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/car_profile_image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/car_profile_img" />
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
-            android:id="@+id/tv_car_name"
-            android:layout_width="0dp"
+            android:id="@+id/car_name"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="24sp"
-            android:layout_marginTop="22dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/borderView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/iv_car_img"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Audi" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_card"
+            tools:text="BMW" />
 
-        <TextView
-            android:id="@+id/iv_car_num"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="24sp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="4dp"
+        <View
+            android:id="@+id/borderView"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/iv_car_img"
-            app:layout_constraintTop_toBottomOf="@+id/tv_car_name"
-            tools:text="V4" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/car_name" />
+
+
+        <include
+            android:id="@+id/car_model"
+            layout="@layout/car_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/borderView" />
+
+        <include
+            android:id="@+id/car_price"
+            layout="@layout/car_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/car_model" />
+
+        <include
+            android:id="@+id/car_year"
+            layout="@layout/car_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/car_price" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -5,8 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import carList
 import com.example.carlistapp.databinding.FirstFragmentXmlBinding
 
 class FirstFragment : Fragment(){
@@ -26,8 +28,9 @@ class FirstFragment : Fragment(){
         super.onViewCreated(view, savedInstanceState)
 
         val recyclerView: RecyclerView = binding.CarRecyclerView
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         adapter = CarAdapter(carList)
         recyclerView.adapter = adapter
+
     }
 }

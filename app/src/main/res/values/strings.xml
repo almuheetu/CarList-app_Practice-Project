@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CarList App</string>
     <string name="car_image">car image</string>
+    <string name="car_profile_image">car_profile_image</string>
 </resources>

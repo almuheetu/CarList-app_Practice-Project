@@ -1,104 +1,34 @@
-package com.example.carlistapp
+import com.example.carlistapp.Car
 
 val carList = arrayListOf(
-    Car(
-        name = "Tesla Model S",
-        model = "Model S",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Ford Mustang",
-        model = "GT",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Chevrolet Camaro",
-        model = "ZL1",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "BMW 3 Series",
-        model = "330i",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Audi A4",
-        model = "Premium",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Mercedes-Benz C-Class",
-        model = "C300",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Honda Accord",
-        model = "EX",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Toyota Camry",
-        model = "XSE",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Nissan Altima",
-        model = "SR",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Hyundai Sonata",
-        model = "Limited",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Kia Stinger",
-        model = "GT2",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Mazda 6",
-        model = "Signature",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Subaru WRX",
-        model = "Limited",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Volkswagen Golf GTI",
-        model = "SE",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Volvo S60",
-        model = "T6 R-Design",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Porsche 911",
-        model = "Carrera",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Jaguar XF",
-        model = "S",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Lexus ES",
-        model = "350 F Sport",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Alfa Romeo Giulia",
-        model = "Ti",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    ),
-    Car(
-        name = "Genesis G70",
-        model = "3.3T",
-        imageUrl = "https://images.unsplash.com/photo-1596061343518-bdcae243ceca?q=80&w=320"
-    )
+    Car(name = "Tesla Model S", model = "Model S", price = 79999.99, imageUrl = "https://example.com/tesla_model_s.jpg", year = 2023),
+    Car(name = "BMW M3", model = "M3", price = 69999.99, imageUrl = "https://example.com/bmw_m3.jpg", year = 2022),
+    Car(name = "Audi A4", model = "A4", price = 39999.99, imageUrl = "https://example.com/audi_a4.jpg", year = 2021),
+    Car(name = "Mercedes-Benz C-Class", model = "C-Class", price = 49999.99, imageUrl = "https://example.com/mercedes_c_class.jpg", year = 2022),
+    Car(name = "Porsche 911", model = "911", price = 99999.99, imageUrl = "https://example.com/porsche_911.jpg", year = 2023),
+    Car(name = "Chevrolet Corvette", model = "Corvette", price = 85999.99, imageUrl = "https://example.com/chevrolet_corvette.jpg", year = 2022),
+    Car(name = "Ford Mustang", model = "Mustang", price = 55999.99, imageUrl = "https://example.com/ford_mustang.jpg", year = 2023),
+    Car(name = "Honda Accord", model = "Accord", price = 29999.99, imageUrl = "https://example.com/honda_accord.jpg", year = 2021),
+    Car(name = "Toyota Camry", model = "Camry", price = 28999.99, imageUrl = "https://example.com/toyota_camry.jpg", year = 2022),
+    Car(name = "Nissan Altima", model = "Altima", price = 27999.99, imageUrl = "https://example.com/nissan_altima.jpg", year = 2023),
+    Car(name = "Lexus IS", model = "IS", price = 39999.99, imageUrl = "https://example.com/lexus_is.jpg", year = 2022),
+    Car(name = "Jaguar XF", model = "XF", price = 54999.99, imageUrl = "https://example.com/jaguar_xf.jpg", year = 2023),
+    Car(name = "Infiniti Q50", model = "Q50", price = 41999.99, imageUrl = "https://example.com/infiniti_q50.jpg", year = 2021),
+    Car(name = "Cadillac CT5", model = "CT5", price = 47999.99, imageUrl = "https://example.com/cadillac_ct5.jpg", year = 2022),
+    Car(name = "Genesis G70", model = "G70", price = 42999.99, imageUrl = "https://example.com/genesis_g70.jpg", year = 2023),
+    Car(name = "Kia Stinger", model = "Stinger", price = 39999.99, imageUrl = "https://example.com/kia_stinger.jpg", year = 2022),
+    Car(name = "Volvo S60", model = "S60", price = 45999.99, imageUrl = "https://example.com/volvo_s60.jpg", year = 2021),
+    Car(name = "Alfa Romeo Giulia", model = "Giulia", price = 50999.99, imageUrl = "https://example.com/alfa_romeo_giulia.jpg", year = 2023),
+    Car(name = "Mazda 6", model = "6", price = 24999.99, imageUrl = "https://example.com/mazda_6.jpg", year = 2022),
+    Car(name = "Subaru WRX", model = "WRX", price = 33999.99, imageUrl = "https://example.com/subaru_wrx.jpg", year = 2023),
+    Car(name = "Volkswagen Passat", model = "Passat", price = 27999.99, imageUrl = "https://example.com/volkswagen_passat.jpg", year = 2021),
+    Car(name = "Acura TLX", model = "TLX", price = 37999.99, imageUrl = "https://example.com/acura_tlx.jpg", year = 2022),
+    Car(name = "Hyundai Sonata", model = "Sonata", price = 27999.99, imageUrl = "https://example.com/hyundai_sonata.jpg", year = 2023),
+    Car(name = "Buick Regal", model = "Regal", price = 31999.99, imageUrl = "https://example.com/buick_regal.jpg", year = 2021),
+    Car(name = "Chrysler 300", model = "300", price = 35999.99, imageUrl = "https://example.com/chrysler_300.jpg", year = 2022),
+    Car(name = "Dodge Charger", model = "Charger", price = 42999.99, imageUrl = "https://example.com/dodge_charger.jpg", year = 2023),
+    Car(name = "Mitsubishi Lancer", model = "Lancer", price = 24999.99, imageUrl = "https://example.com/mitsubishi_lancer.jpg", year = 2021),
+    Car(name = "Tesla Model 3", model = "Model 3", price = 52999.99, imageUrl = "https://example.com/tesla_model_3.jpg", year = 2022),
+    Car(name = "BMW 5 Series", model = "5 Series", price = 59999.99, imageUrl = "https://example.com/bmw_5_series.jpg", year = 2023),
+    Car(name = "Audi A6", model = "A6", price = 57999.99, imageUrl = "https://example.com/audi_a6.jpg", year = 2021)
 )
