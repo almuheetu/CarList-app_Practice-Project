@@ -30,5 +30,12 @@ class FirstFragment : Fragment() {
         adapter = CarAdapter(carList)
         recyclerView.adapter = adapter
 
+        carList.get(0).name
+        carList.get(0).model
+        carList.get(0).price
+        carList[0].imageUrl
+        carList.get(0).year
+
+
     }
 }
